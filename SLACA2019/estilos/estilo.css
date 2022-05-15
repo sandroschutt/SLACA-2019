@@ -1,0 +1,211 @@
+/*
+----------------------------------------------------------------
+BARRA LATERAL
+----------------------------------------------------------------
+*/
+/* título */
+.slaca {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 65px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.slaca-container {
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  height: 71px;
+  width: 220px;
+}
+
+/* menu */
+.nav-link {
+  border-bottom: 2px solid #e7e7e7;
+}
+
+.nav-link:hover {
+  background: #fdf1eb;
+}
+
+.active {
+  border-left: 5px solid #ed7839;
+  background: #fdf1eb;
+}
+
+/*
+----------------------------------------------------------------
+HEADER
+----------------------------------------------------------------
+*/
+header {
+  background: #fdf1eb;
+  height: 72px;
+  width: 104.2%;
+}
+
+.header-content {
+  position: relative;
+  /* width: 391px; */
+  height: 16px;
+  left: 36px;
+  top: 5px;
+}
+
+.anais-description {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin-bottom: 0;
+  color: #725c5c;
+}
+
+.anais-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  margin: 5px 0 0 0;
+}
+
+.issn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #725c5c;
+}
+
+.botao-idiomas {
+  box-sizing: border-box;
+
+  justify-content: center;
+
+  position: absolute;
+  width: 105px;
+  height: 34px;
+  left: 76%;
+  top: 17px;
+
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+
+  background-color: #fdf1eb;
+}
+
+.language-image {
+  margin: 4px 4px 0 10px;
+  float: left;
+}
+
+.language-text {
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-icon {
+  margin: 0 0 3px 0;
+}
+
+.dropdown-select {
+  width: 52%;
+  margin: 3px 0 0 0;
+  background: #fdf1eb;
+  border: none;
+
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  background-position: calc(100% + 1px) center !important;
+  background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>")
+    no-repeat;
+}
+
+/*area do usuario*/
+
+.bem-vindo {
+  position: absolute;
+  width: 72px;
+  height: 18px;
+  left: 87.7%;
+  top: 17px;
+
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+
+  text-align: right;
+}
+
+.usr-email {
+  position: absolute;
+  width: 163px;
+  height: 15px;
+  left: 82.3%;
+  top: 36px;
+
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  text-align: right;
+
+  color: #333333;
+}
+
+.usr-avatar {
+  position: absolute;
+  left: 92.5%;
+  right: 2.53%;
+  top: 105%;
+  bottom: 27.94%;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+
+  background-image: url("../img/header/image.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.notification {
+  position: absolute;
+  width: 6px;
+  height: 12px;
+  right: 3px;
+  bottom: 0px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+
+  color: #ffffff;
+}
